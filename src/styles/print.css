@@ -1,0 +1,47 @@
+/* Print / "Save as PDF" layout. Only the plan document is printed. */
+@page {
+  size: A4;
+  margin: 18mm 16mm 20mm;
+}
+
+@media print {
+  html,
+  body {
+    background: #fff !important;
+    color: #111 !important;
+    font-size: 10.5pt;
+  }
+
+  .doc h1 {
+    font-size: 18pt;
+  }
+
+  .doc h2 {
+    break-after: avoid;
+    page-break-after: avoid;
+    margin-top: 6mm;
+  }
+
+  .doc h3 {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  .doc tr,
+  .doc li {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .doc thead {
+    display: table-header-group;
+  }
+
+  .doc-table-wrap {
+    overflow: visible !important;
+  }
+
+  .doc table {
+    font-size: 9pt;
+  }
+}
