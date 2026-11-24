@@ -9,6 +9,8 @@ Un asistente paso a paso que te hace las preguntas clave sobre **alcance, intere
 
 Funciona por completo en el navegador: sin cuentas ni servidor, y tus datos no salen de tu computadora.
 
+**▶ Probalo en vivo: [wiz.anagonzalez.uy](https://wiz.anagonzalez.uy)**
+
 ![Paso de riesgos con la matriz 5×5 interactiva y la vista previa del documento](docs/screenshots/risks.png)
 
 ## Por qué

@@ -9,6 +9,8 @@ A step-by-step wizard that asks the key questions about **scope, stakeholders, r
 
 It runs entirely in the browser: no account, no backend, and your data never leaves your machine.
 
+**▶ Try it live: [wiz.anagonzalez.uy](https://wiz.anagonzalez.uy)**
+
 ![Risk step with the interactive 5×5 matrix and the live document preview](docs/screenshots/risks.png)
 
 ## Why
