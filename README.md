@@ -108,10 +108,16 @@ src/
 
 Templates are pure functions, so adding another standard or output format means adding one file and its tests.
 
+## About the author
+
+I'm **Ana González Lamé**, a Senior QA Analyst from Uruguay (ISTQB CTFL) with over a decade in tech. I work on test strategy, exploratory and functional testing, BDD scenarios in Gherkin and API testing. I built this tool to make test planning faster and more consistent for the teams I work with.
+
+🟢 **Open to remote QA roles.** Let's talk: [LinkedIn](https://www.linkedin.com/in/anagonzalezlame/) · [anagonzalez.uy](https://www.anagonzalez.uy) · [Interactive CV](https://www.anagonzalez.cv)
+
 ## Contributing
 
 Issues and pull requests are welcome. Please run `npm run lint && npm test` before opening a PR.
 
 ## License
 
-[MIT](LICENSE) © 2026 Ana González
+[MIT](LICENSE) © 2026 Ana González Lamé

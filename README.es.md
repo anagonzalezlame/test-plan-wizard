@@ -92,10 +92,16 @@ Vite · React 19 · TypeScript · Tailwind CSS v4 · Zustand · React Hook Form 
 
 La estructura de carpetas está detallada en el [README en inglés](README.md#tech-stack). Las plantillas son funciones puras, así que sumar otra norma u otro formato de salida implica agregar un archivo y sus pruebas.
 
+## Sobre mí
+
+Soy **Ana González Lamé**, Senior QA Analyst de Uruguay (ISTQB CTFL), con más de diez años en tecnología. Trabajo en estrategia de pruebas, testing exploratorio y funcional, escenarios BDD en Gherkin y pruebas de API. Hice esta herramienta para que planificar las pruebas sea más rápido y consistente en los equipos con los que trabajo.
+
+🟢 **Disponible para posiciones de QA remotas.** Hablemos: [LinkedIn](https://www.linkedin.com/in/anagonzalezlame/) · [anagonzalez.uy](https://www.anagonzalez.uy) · [CV interactivo](https://www.anagonzalez.cv)
+
 ## Contribuir
 
 Los issues y pull requests son bienvenidos. Antes de abrir un PR, corré `npm run lint && npm test`.
 
 ## Licencia
 
-[MIT](LICENSE) © 2026 Ana González
+[MIT](LICENSE) © 2026 Ana González Lamé
