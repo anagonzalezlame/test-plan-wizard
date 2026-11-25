@@ -75,7 +75,7 @@ export default function App() {
 
           <div className="mt-4 mb-6 flex items-start justify-between gap-4 lg:mt-0 print:hidden">
             <div>
-              <h1 ref={headingRef} tabIndex={-1} className="text-2xl font-semibold tracking-tight outline-none">
+              <h1 ref={headingRef} tabIndex={-1} className="font-display text-2xl font-semibold outline-none">
                 {t.steps[id].title}
               </h1>
               <p className="mt-1 text-sm text-neutral-500 dark:text-neutral-400">{t.steps[id].desc}</p>

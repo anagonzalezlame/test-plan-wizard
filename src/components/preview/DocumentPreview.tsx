@@ -82,7 +82,7 @@ export function DocumentPreview({ doc, className, print = false }: DocumentPrevi
       )}
     >
       <header className="mb-8 border-b border-neutral-200 pb-6 dark:border-neutral-800">
-        <h1 className="text-xl font-semibold tracking-tight text-neutral-950 dark:text-white">{doc.title}</h1>
+        <h1 className="font-display text-xl font-semibold text-neutral-950 dark:text-white">{doc.title}</h1>
         {doc.meta.length > 0 && (
           <dl className="mt-4 grid grid-cols-[auto_1fr] gap-x-4 gap-y-1 text-xs">
             {doc.meta.map((m) => (
@@ -99,7 +99,7 @@ export function DocumentPreview({ doc, className, print = false }: DocumentPrevi
         {numberSections(doc.sections).map(({ section, number }) => (
           <section key={section.id} aria-labelledby={`doc-${section.id}`} className="doc-section space-y-3">
             {section.level === 1 ? (
-              <h2 id={`doc-${section.id}`} className="pt-2 text-base font-semibold text-neutral-950 dark:text-white">
+              <h2 id={`doc-${section.id}`} className="pt-2 font-display text-base font-semibold text-neutral-950 dark:text-white">
                 <span className="mr-2 font-mono text-neutral-400">{number}</span>
                 {section.title}
               </h2>
